@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Life Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Life Tracker</h1>
+
+<div class="container">
+
+<label>Valor da hora (€)</label>
+<input id="valorHora" type="number" placeholder="Ex: 12">
+
+<div class="buttons">
+<button id="startBtn">START</button>
+<button id="stopBtn">STOP</button>
+</div>
+
+<div class="stats">
+<p>Tempo trabalhado: <span id="tempo">00:00:00</span></p>
+<p>Ganhos: €<span id="ganhos">0.00</span></p>
+</div>
+
+<h3>Histórico de sessões</h3>
+<ul id="historico"></ul>
+<button id="resetBtn">Limpar Histórico</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
